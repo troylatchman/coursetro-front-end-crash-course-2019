@@ -61,4 +61,33 @@ h1,
   color: white;
   margin-top: 15%;
   padding: 4em 0 2em;
+  border-top-left-radius: 40px;
+  transform: skewY(-2deg);
+}
+
+.blue-container:before {
+  content: '';
+  height: 40px;
+  width: 40px;
+  background-color: #00c2ff;
+  position: absolute;
+  top: -39px;
+  right: 0;
+  z-index: -2;
+}
+
+.blue-container:after {
+  content: '';
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  top: -80px;
+  position: absolute;
+  right: 0;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.blue-container ul {
+  transform: skewY(2deg);
 }
