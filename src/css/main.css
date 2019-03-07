@@ -127,3 +127,21 @@ figcaption {
   font-weight: bold;
   color: #00c2ff;
 }
+
+h2 {
+  margin-top: 7%;
+}
+
+.cta {
+  background: #00cc80;
+  width: calc(100%-1em);
+  display: block;
+  color: white;
+  border-radius: 20px;
+  padding: 0.5em;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 3% auto 7%;
+  position: relative;
+  z-index: 4;
+}
