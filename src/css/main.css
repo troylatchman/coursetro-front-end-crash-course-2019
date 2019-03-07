@@ -91,3 +91,19 @@ h1,
 .blue-container ul {
   transform: skewY(2deg);
 }
+
+.blue-container ul li {
+  margin-bottom: 3em;
+}
+
+.blue-container ul li p {
+  padding: 0 0.5em;
+}
+
+.blue-container img {
+  width: 14%;
+}
+
+.blue-container ul li:nth-child(3) img {
+  width: 8%;
+}
