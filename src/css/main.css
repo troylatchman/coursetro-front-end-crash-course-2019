@@ -107,3 +107,23 @@ h1,
 .blue-container ul li:nth-child(3) img {
   width: 8%;
 }
+
+.gray-container {
+  background: #f6f6f6;
+  padding: 4em 0 2em;
+  margin-top: -3%;
+}
+
+.gray-container ul li:first-child {
+  margin-bottom: 2em;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-weight: bold;
+  color: #00c2ff;
+}
