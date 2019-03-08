@@ -296,3 +296,61 @@ nav ul li a:hover {
     margin: 4% 0 0;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .cta {
+    width: 50%;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .show-desktop {
+    display: block;
+    margin: 0 auto 13% auto;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+
+  nav ul {
+    position: inherit;
+    width: auto;
+    background: none;
+    height: auto;
+    display: flex;
+    padding-top: 0;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    color: black;
+    background-color: inherit;
+    text-align: right;
+    padding: 1em 2em;
+  }
+
+  nav ul li a:hover {
+    background-color: inherit;
+  }
+
+  .scroll {
+    width: 30px;
+    animation: move 1s infinite alternate;
+  }
+
+  @keyframes move {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(20px);
+    }
+  }
+}
